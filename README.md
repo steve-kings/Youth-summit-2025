@@ -1,0 +1,2 @@
+The Sustainability Youth Summit 2025 is a platform for young people to engage with experts, policymakers, and industry leaders to explore opportunities and solutions for a sustainable future.</p>
+                        <p>Organized by Pioneer Child Development Programme and Karatina University, this summit aims to equip youths with knowledge and strategies to promote sustainable practices in their communities.
