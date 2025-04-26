@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Youth Summit 2025</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/images/image001.png" alt="Logo" id="logo-placeholder">
+                Sustainability Summit
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#venue">Venue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a href="https://docs.google.com/forms/d/19xoYbDfiwxveSL0setWAtc1wNsWFTcJAaemBG-0xrgA/viewform" target="_blank" class="register-btn">Register Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-video-container">
+            <!-- We'll use a video background generated with canvas -->
+            <canvas id="hero-canvas" class="hero-video-bg"></canvas>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tagline">You are invited to</p>
+                <h1 class="hero-title">
+                    <span class="sustainability">Sustainability</span>
+                    <span class="youth">Youth</span>
+                    <span class="summit">Summit 2025</span>
+                </h1>
+                <p class="hero-description">
+                    Join us for a transformative experience focused on preparing youths for a sustainable future in the era of climate change. Connect with experts, showcase innovations, and build networks for a greener tomorrow.
+                </p>
+                <a href="https://docs.google.com/forms/d/19xoYbDfiwxveSL0setWAtc1wNsWFTcJAaemBG-0xrgA/viewform" target="_blank" class="hero-cta">
+                    Register Now
+                </a>
+                <div class="hero-event-details">
+                    <div class="event-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Friday, 23 May 2025</span>
+                    </div>
+                    <div class="event-detail">
+                        <i class="fas fa-clock"></i>
+                        <span>8:00 AM - 5:00 PM</span>
+                    </div>
+                    <div class="event-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Karatina University, Kagochi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="animated-bg">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title text-animate" data-aos="fade-up">About The Summit</h2>
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="p-4">
+                        <h3 class="mb-4 text-success">Preparing Youths for a Sustainable Future</h3>
+                        <p class="lead">The Sustainability Youth Summit 2025 is a platform for young people to engage with experts, policymakers, and industry leaders to explore opportunities and solutions for a sustainable future.</p>
+                        <p>Organized by Pioneer Child Development Programme and Karatina University, this summit aims to equip youths with knowledge and strategies to promote sustainable practices in their communities.</p>
+                        
+                        <div class="row mt-5">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="/images/logo.jpeg" alt="Pioneer CDP Logo" class="me-3" style="width: 70px;">
+                                    <div>
+                                        <h6 class="mb-0">Pioneer CDP</h6>
+                                        <small>Co-organizer</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="/images/image001.png" alt="Karatina University Logo" style="width: 70px;">
+                                    <div>
+                                        <h6 class="mb-0">Karatina University</h6>
+                                        <small>Host Institution</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="row g-4">
+                        <div class="col-md-12">
+                            <div class="card about-card">
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <i class="fas fa-bullseye about-icon"></i>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h4 class="card-title">Our Mission</h4>
+                                        <p>To inspire and equip young people with the knowledge, skills, and networks they need to become sustainability champions in their communities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12 mt-4">
+                            <h4 class="mb-3">Key Focus Areas</h4>
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="card theme-card environmental h-100">
+                                        <i class="fas fa-leaf theme-icon"></i>
+                                        <h5 class="theme-title">Environmental Sustainability</h5>
+                                        <p>Equipping youths with knowledge and strategies to promote sustainable practices.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card theme-card careers h-100">
+                                        <i class="fas fa-briefcase theme-icon"></i>
+                                        <h5 class="theme-title">Green Careers</h5>
+                                        <p>Exploring opportunities in the green economy and future job market.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card theme-card innovation h-100">
+                                        <i class="fas fa-lightbulb theme-icon"></i>
+                                        <h5 class="theme-title">Innovation</h5>
+                                        <p>Showcasing innovations that contribute to climate resilience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities" id="activities">
+        <div class="animated-bg">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title text-animate" data-aos="fade-up">Key Activities</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="activity-card">
+                        <div class="activity-img-container">
+                            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1674&auto=format&fit=crop" alt="Exhibitions">
+                            <div class="activity-overlay">
+                                <h5>Showcase Innovation</h5>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="activity-title">Exhibitions</h4>
+                            <p>Showcase innovative projects and solutions for sustainability challenges. Each institution will have representation for a maximum of 10 students and can exhibit innovative projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="activity-card">
+                        <div class="activity-img-container">
+                            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1684&auto=format&fit=crop" alt="Mentorship & Networking">
+                            <div class="activity-overlay">
+                                <h5>Connect with Experts</h5>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="activity-title">Mentorship & Networking</h4>
+                            <p>Connect with industry experts, leaders, and like-minded individuals passionate about sustainability. Build relationships that can accelerate your sustainability journey.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="activity-card">
+                        <div class="activity-img-container">
+                            <img src="/images/discussion panel.jpg" alt="Panel Discussions">
+                            <div class="activity-overlay">
+                                <h5>Engage in Dialogue</h5>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="activity-title">Panel Discussions</h4>
+                            <p>Engage in thought-provoking discussions on key sustainability themes, led by experts and policymakers. Share your perspectives and learn from diverse viewpoints.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="schedule">
+        <div class="animated-bg">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title text-animate" data-aos="fade-up">Event Schedule</h2>
+            <div class="timeline" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-item timeline-left">
+                    <div class="timeline-content">
+                        <span class="timeline-time">8:00 AM - 9:00 AM</span>
+                        <h3 class="timeline-title">Registration & Networking</h3>
+                        <p>Check-in, collect your summit materials, and enjoy a light breakfast while networking with other participants.</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-right">
+                    <div class="timeline-content">
+                        <span class="timeline-time">9:00 AM - 9:30 AM</span>
+                        <h3 class="timeline-title">Opening Ceremony</h3>
+                        <p>Welcome address by the organizing committee, introduction to the summit objectives and agenda.</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-left">
+                    <div class="timeline-content">
+                        <span class="timeline-time">9:30 AM - 11:00 AM</span>
+                        <h3 class="timeline-title">Keynote Presentations</h3>
+                        <p>Inspiring talks on environmental sustainability, the role of youth, and future opportunities.</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-right">
+                    <div class="timeline-content">
+                        <span class="timeline-time">11:00 AM - 12:30 PM</span>
+                        <h3 class="timeline-title">Panel Discussion: Green Careers</h3>
+                        <p>Expert panel discussing career opportunities in the green economy and how to prepare for them.</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-left">
+                    <div class="timeline-content">
+                        <span class="timeline-time">12:30 PM - 1:30 PM</span>
+                        <h3 class="timeline-title">Networking Lunch</h3>
+                        <p>Enjoy a sustainable lunch while connecting with other participants and speakers.</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-right">
+                    <div class="timeline-content">
+                        <span class="timeline-time">1:30 PM - 3:00 PM</span>
+                        <h3 class="timeline-title">Innovation Showcase</h3>
+                        <p>Tour of exhibitions featuring innovative sustainability projects from participating institutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-left">
+                    <div class="timeline-content">
+                        <span class="timeline-time">3:00 PM - 4:30 PM</span>
+                        <h3 class="timeline-title">Workshop Sessions</h3>
+                        <p>Parallel workshops on various sustainability topics with hands-on activities and mentorship opportunities.</p>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-right">
+                    <div class="timeline-content">
+                        <span class="timeline-time">4:30 PM - 5:00 PM</span>
+                        <h3 class="timeline-title">Closing Ceremony</h3>
+                        <p>Summary of the day, presentation of certificates, and closing remarks on the way forward.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Section -->
+    <section class="venue" id="venue">
+        <div class="animated-bg">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title text-animate" data-aos="fade-up">Venue Information</h2>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="row g-4">
+                        <div class="col-md-12">
+                            <div class="venue-img">
+                                <img src="/images/DJI_0014.jpg" alt="Karatina University">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4">
+                            <div class="venue-img">
+                                <img src="/images/JIM_5182.jpg" alt="University Campus">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4">
+                            <div class="venue-img">
+                                <img src="/images/DJI_0014.jpg" alt="University Facilities">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                    <div class="venue-info">
+                        <h3 class="venue-title">Karatina University</h3>
+                        <p class="lead">The summit will be held at the Main Campus, Kagochi, Nyeri County - a serene environment perfect for inspiring sustainable thinking.</p>
+                        
+                        <div class="venue-detail">
+                            <div class="venue-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Location</h5>
+                                <p class="mb-0">Karatina University Main Campus, Kagochi, Nyeri County</p>
+                            </div>
+                        </div>
+                        
+                        <div class="venue-detail">
+                            <div class="venue-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Date</h5>
+                                <p class="mb-0">Friday, 23 May 2025</p>
+                            </div>
+                        </div>
+                        
+                        <div class="venue-detail">
+                            <div class="venue-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5>Time</h5>
+                                <p class="mb-0">8:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="venue-detail">
+                            <div class="venue-icon">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div>
+                                <h5>Facilities</h5>
+                                <p class="mb-0">State-of-the-art conference rooms, exhibition spaces, and outdoor areas perfect for networking and engagement activities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="animated-bg">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title text-animate" data-aos="fade-up">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="contact-form-container" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="row g-0">
+                            <div class="col-lg-7">
+                                <div class="contact-form">
+                                    <h3 class="mb-4">Send us a message</h3>
+                                    <form action="https://api.web3forms.com/submit" method="POST">
+                                        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+                                        <input type="hidden" name="subject" value="New Contact from Sustainability Youth Summit Website">
+                                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                                        
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="name" class="form-label">Full Name</label>
+                                                    <input type="text" class="form-control" id="name" name="name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="email" class="form-label">Email Address</label>
+                                                    <input type="email" class="form-control" id="email" name="email" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-3">
+                                                    <label for="institution" class="form-label">Institution/Organization</label>
+                                                    <input type="text" class="form-control" id="institution" name="institution">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-3">
+                                                    <label for="message" class="form-label">Message</label>
+                                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="submit-btn">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="contact-info">
+                                    <h3 class="contact-info-title">Get In Touch</h3>
+                                    <p>Have questions about the summit? Reach out to our organizing team for more information.</p>
+                                    
+                                    <div class="contact-details">
+                                        <div class="contact-detail">
+                                            <div class="contact-icon">
+                                                <i class="fas fa-phone-alt"></i>
+                                            </div>
+                                            <div class="contact-text">
+                                                <strong>Phone</strong>
+                                                +254 788 419 041
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="contact-detail">
+                                            <div class="contact-icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="contact-text">
+                                                <strong>Email</strong>
+                                                sustainabilityyouthsummit@gmail.com
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="contact-detail">
+                                            <div class="contact-icon">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="contact-text">
+                                                <strong>Address</strong>
+                                                Karatina University, Main Campus<br>
+                                                Kagochi, Nyeri County
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="mb-3">Contact Persons</h4>
+                                        <div class="contact-detail">
+                                            <div class="contact-icon">
+                                                <i class="fas fa-user"></i>
+                                            </div>
+                                            <div class="contact-text">
+                                                Jane Muthoni<br>
+                                                +254 712 305 530
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="contact-detail">
+                                            <div class="contact-icon">
+                                                <i class="fas fa-user"></i>
+                                            </div>
+                                            <div class="contact-text">
+                                                Tabitha Mwangi<br>
+                                                +254 728 040 648
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="/images/logo.jpeg" alt="Summit Logo" class="footer-logo">
+                    <div class="footer-about">
+                        <p>The Sustainability Youth Summit 2025 aims to prepare youths for a sustainable future in the era of climate change. Join us for a transformative experience!</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li class="footer-link"><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li class="footer-link"><a href="#activities"><i class="fas fa-chevron-right"></i> Activities</a></li>
+                        <li class="footer-link"><a href="#schedule"><i class="fas fa-chevron-right"></i> Schedule</a></li>
+                        <li class="footer-link"><a href="#venue"><i class="fas fa-chevron-right"></i> Venue</a></li>
+                        <li class="footer-link"><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="footer-title">Organizers</h4>
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="/images/logo.jpeg" alt="Pioneer CDP Logo" class="me-3" style="width: 50px;">
+                        <div>
+                            <p class="mb-0">Pioneer Child Development Programme</p>
+                            <small class="text-muted">Inspire, Engage, Transform</small>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="/images/image001.png" alt="Karatina University Logo" class="me-3" style="width: 50px;">
+                        <div>
+                            <p class="mb-0">Karatina University</p>
+                            <small class="text-muted">Inspiring Innovation and Leadership</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Sustainability Youth Summit. Developed by Kings Creation 2025.</p>
+                <p>Contact: +254 788 419 041</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA -->
+    <a href="https://docs.google.com/forms/d/19xoYbDfiwxveSL0setWAtc1wNsWFTcJAaemBG-0xrgA/viewform" target="_blank" class="floating-cta">
+        <i class="fas fa-user-plus"></i>
+    </a>
+    <div class="floating-cta-text">Register Now!</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
